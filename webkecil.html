@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ig:@dxeetzz.x</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: #d32f2f; /* Merah otomotif */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        /* Style untuk Kartu Motor */
+        .motor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .motor-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .motor-card:hover {
+            transform: translateY(-5px);
+        }
+        .motor-image {
+            width: 100%;
+            height: 180px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+        }
+        .motor-info {
+            padding: 15px;
+        }
+        .motor-price {
+            color: #d32f2f;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .btn-beli {
+            display: block;
+            text-align: center;
+            background: #d32f2f;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Deetzz Motor's</h1>
+        <p>Solusi Cepat Jual Beli Motor Terpercaya</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Motor Matic</a>
+        <a href="#">Motor Sport</a>
+        <a href="#">Kontak Kami</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Cari Motor Impian Anda?</h2>
+            <p>Tersedia lebih dari 100+ unit motor berkualitas dengan surat-surat lengkap.</p>
+        </section>
+
+        <h2 style="text-align: center;">Katalog Terbaru</h2>
+        
+        <div class="motor-grid">
+            <div class="motor-card">
+              <img src="img/mp bapak.jpeg" alt="motor saya" style="width: 100%; height: 250px; object-fit: cover;">
+                <div class="motor-info">
+                    <h3>Honda Megapro Bpk saya</h3>
+                    <p>Tahun: 2009 | KM: 49.850</p>
+                    <p class="motor-price">Rp 10.000.000 nego</p>
+                    <a href="#" class="btn-beli">Hubungi Penjual</a>
+                </div>
+            </div>
+
+            <div class="motor-card">
+                <img src="img/fu ku.jpeg" alt="motor saya" style="width: 100%; height: 250px; object-fit: cover;">
+                <div class="motor-info">
+                    <h3>Suzuki Satria Fu </h3>
+                    <p>Tahun: 2016 | KM: 1.200</p>
+                    <p class="motor-price">Rp 100.000.000 net</p>
+                    <a href="usil.html">Hubungi Penjual</a>
+                </div>
+            </div>
+
+            <div class="motor-card">
+                <img src="img/rrnew.jpeg" alt="motor saya" style="width: 100%; height: 250px; object-fit: cover;">
+                <div class="motor-info">
+                    <h3>Kawasaki Ninja 150RR</h3>
+                    <p>Tahun: 2013 | KM: 12.000</p>
+                    <p class="motor-price">Rp 23.000.000 nego</p>
+                    <a href="#" class="btn-beli">Hubungi Penjual</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Motor Market Indonesia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
